@@ -67,3 +67,9 @@ Du bör kunna nå Swagger annars kan det behövas att du ändrar ASPNETCORE_ENVI
 
 Kör annars med postman eller i visual studio med RentalApp som start projekt.
 
+## Tester
+```bash
+    cd /RentalApp.Tests
+    dotnet test
+```
+Går också att köra testerna i visual studio.
