@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "aae0ad7b-4396-4d52-b55c-c035a459f40e",
+		"name": "Rental API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13734986"
+	},
+	"item": [
+		{
+			"name": "Get rentals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7230/api/rent/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7230",
+					"path": [
+						"api",
+						"rent",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get returns",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7230/api/return/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7230",
+					"path": [
+						"api",
+						"return",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cars",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:{{portNumber}}/api/rentals/cars",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "{{portNumber}}",
+					"path": [
+						"api",
+						"rentals",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register new rent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"personNumber\": \"1534567890\",\r\n    \"registrationId\": \"ABC123\",\r\n    \"timeOfReleasing\": \"2024-08-10T14:30:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7230/api/rent/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7230",
+					"path": [
+						"api",
+						"rent",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register new return - behöver använda bokningsnumret ifrån det registerade uthyrningen",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bookingNumber\": \"0896c2f4-d74a-4cc7-999b-6d965f8bd5e5\",\r\n    \"timeOfReturn\": \"2024-08-13T15:30:00\",\r\n    \"endedKm\": 1060\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:{{portNumber}}/api/return/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "{{portNumber}}",
+					"path": [
+						"api",
+						"return",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
