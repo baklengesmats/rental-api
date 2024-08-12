@@ -47,6 +47,8 @@ https://localhost:{{portNumber}}/api/return/
 specific retur https://localhost:{{portNumber}}/api/return/{bookingNumber}
 
 Jag skickar även med en postman config export i repot.
+"Rental API.postman_collection.json"
+
 ## Bygga
 - [.NET SDK 8.0 eller senare](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [AutoMapper](https://automapper.org/) (v13.0.1)
