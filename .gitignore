@@ -1,0 +1,136 @@
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# User-specific files (VSCode)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# OS-generated files
+[Dd]esktop.ini
+[Tt]humbs.db
+ehthumbs.db
+Icon?
+._*
+
+# DotNet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+# TeamCity
+.teamcity/
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+# StyleCop
+StyleCopReport.xml
+# Files built by Visual Studio
+*.stackdump
+.vs/
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+# Visual Studio 2019
+.vscode/
+.vs/
+*.ncb
+*.sdf
+*.suo
+*.vcxproj.user
+*.rsuser
+*.ruleset
+# Windows crash logs
+*.dump
+# Windows Mobile 10
+AppPackages/
+BundleArtifacts/
+# Windows shortcuts
+*.lnk
+# JetBrains Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# IIS generated folders
+_IISExpress/
+_IISExpress_Backup/
+
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version.
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# Node.js dependencies
+node_modules/
+
+# Yarn
+.yarn/
+.yarnrc.yml
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dotnet/tools/
+# Log files
+*.log
+# Npm package
+*.nupkg
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# Rider
+.idea/
+
+# Test output
+TestResults/
+# Coverage reports
+lcov-report/
+
+# Paket
+.paket/
+packages/
+*.paket.config
